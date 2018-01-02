@@ -101,6 +101,7 @@ textarea {
 body {
     overflow-x: hidden;
     font-family: 'Hacked';
+    font-weight: normal;
 }
 
 .menu {
