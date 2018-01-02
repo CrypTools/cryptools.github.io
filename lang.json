@@ -4,23 +4,23 @@
         "fr": "Qu'est-ce que c'est?"
     },
     "what-p": {
-        "en": "<b>CrypTools</b> is an organisation who tries to deliver the best versions of ciphers and hash functions. Basically, we provide multiple ways of encrypting messages in various programming languages. All our snippets / piece of code are licensed using the <b>MIT License</b>, which make it easy for you to integrate the best of modern cryptography into your next creation. The point of this is to help <b>everyone</b> being more productive. Because we truly believe that we can make the world 🌎 a better place.  ",
-        "fr ": " <b>CrypTools</b> est une organisation qui essaie de fournir les meilleures versions des fonctions de chiffrement et de hashage. Fondamentalement, nous fournissons plusieurs façons de crypter des messages dans divers langages de programmation. Tous nos snippets / morceau de code sont publiés en utilisant la <b>License MIT </b>, ce qui vous permet d'intégrer facilement le meilleur de la cryptographie moderne dans votre prochaine création. L'objectif est d'aider <b>tout le monde</b> à être plus productif. Parce que nous croyons vraiment que nous pouvons faire du monde 🌎 un meilleur endroit.  "
+        "en": "<b>CrypTools</b> is an organisation who tries to deliver the best versions of ciphers and hash functions. Basically, we provide multiple ways of encrypting messages in various programming languages. All our snippets / piece of code are licensed using the <b>MIT License</b>, which make it easy for you to integrate the best of modern cryptography into your next creation. The point of this is to help <b>everyone</b> being more productive. Because we truly believe that we can make the world 🌎 a better place.",
+        "fr": "<b>CrypTools</b> est une organisation qui essaie de fournir les meilleures versions des fonctions de chiffrement et de hashage. Fondamentalement, nous fournissons plusieurs façons de crypter des messages dans divers langages de programmation. Tous nos snippets / morceau de code sont publiés en utilisant la <b>License MIT </b>, ce qui vous permet d'intégrer facilement le meilleur de la cryptographie moderne dans votre prochaine création. L'objectif est d'aider <b>tout le monde</b> à être plus productif. Parce que nous croyons vraiment que nous pouvons faire du monde 🌎 un meilleur endroit."
     },
     "who-h1 ": {
-        "en ": "Who are we? ",
-        "fr ": "Qui sommes-nous? "
+        "en": "Who are we? ",
+        "fr": "Qui sommes-nous? "
     },
     "who-p ": {
-        "en ": " We are a small team of 2 persons who are passionate about computers and programming. We are both French 🇫🇷, but we publish and write our code in the language of Shakespeare because we want to make our products accessible to everyone. That's why we are using the fantastic <a href=\"https: //glottologist.js.org\">Glottologist</a> library.",
-        "fr ": " Nous sommes une petite équipe de 2 personnes passionnés par les ordinateurs et la programmation. Nous parlons tout les deux le Français 🇫🇷, mais nous publions et écrivons notre code dans la langue de Shakespeare car nous voulons rendre nos produits accessible à tous. C'est pour cela que nous utilisons la library fantastique <a href=\"https: //glottologist.js.org\">Glottologist</a>  "
+        "en": " We are a small team of 2 persons who are passionate about computers and programming. We are both French 🇫🇷, but we publish and write our code in the language of Shakespeare because we want to make our products accessible to everyone. That's why we are using the fantastic <a href=\"https: //glottologist.js.org\">Glottologist</a> library.",
+        "fr": " Nous sommes une petite équipe de 2 personnes passionnés par les ordinateurs et la programmation. Nous parlons tout les deux le Français 🇫🇷, mais nous publions et écrivons notre code dans la langue de Shakespeare car nous voulons rendre nos produits accessible à tous. C'est pour cela que nous utilisons la library fantastique <a href=\"https: //glottologist.js.org\">Glottologist</a>  "
     },
     "contrib-h1 ": {
-        "en ": "How to contribute?",
-        "fr ": "Comment contribuer? "
+        "en": "How to contribute?",
+        "fr": "Comment contribuer? "
     },
     "contrib-p ": {
-        "en ": "We're always trying to provide all of our ciphers and functionality to the majority of existing programming languages, but sometimes, it's just impossible to learn them all 😞. That's why it would be great if you could translate or help in any cases if you like this organization.<br> If you like it but you're not able to help, remember that leaving a star ⭐️ on our projects can help get more people involved.  ",
-        "fr ": "Nous essayons toujours de fournir tous nos chiffrements et fonctionnalités à la majorité des langages de programmation existants, mais parfois, il est simplement impossible de les apprendre tous 😞. C'est pourquoi ce serait génial si vous pouviez traduire ou aider dans tous les cas si vous aimez cette organisation. <br> Si vous aimez mais vous ne pouvez pas aider, rappelez-vous que laisser une étoile ⭐️ sur nos projets peut aider à impliquer plus de gens.  "
+        "en": "We're always trying to provide all of our ciphers and functionality to the majority of existing programming languages, but sometimes, it's just impossible to learn them all 😞. That's why it would be great if you could translate or help in any cases if you like this organization.<br> If you like it but you're not able to help, remember that leaving a star ⭐️ on our projects can help get more people involved.  ",
+        "fr": "Nous essayons toujours de fournir tous nos chiffrements et fonctionnalités à la majorité des langages de programmation existants, mais parfois, il est simplement impossible de les apprendre tous 😞. C'est pourquoi ce serait génial si vous pouviez traduire ou aider dans tous les cas si vous aimez cette organisation. <br> Si vous aimez mais vous ne pouvez pas aider, rappelez-vous que laisser une étoile ⭐️ sur nos projets peut aider à impliquer plus de gens.  "
     }
 }
