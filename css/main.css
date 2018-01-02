@@ -198,6 +198,9 @@ section>p {
     font-family: 'Inconsolata', monospace;
     text-align: justify;
 }
+a {
+	color: black;
+}
 
 /* ==========================================================================
    Helper classes
