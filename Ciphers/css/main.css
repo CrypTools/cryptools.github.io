@@ -193,11 +193,10 @@ select.f {
     appearance: none;
     position: absolute;
     top: 0;
-    right: calc(50vw - 150px);
-    width: 358px;
+    right: calc(50vw - 92px);
+    width: 300px;
     padding: 20px;
 	padding-left: 50px;
-    text-align-last: center;
     background: #35414a;
     color: white;
     border: none;
@@ -211,10 +210,11 @@ select.f {
 	right: calc(50vw - 150px);
 	text-align: center;
 	width: 58px;
-	height: 58px;
-	line-height: 58px;
+	height: 62px;
+	line-height: 57px;
 	color: white;
 	font-size: 2em;
+	background: #35414a;
 }
 input.key {
 	-webkit-appearance: none;
@@ -226,7 +226,6 @@ input.key {
     width: 300px;
     padding: 20px;
 	padding-left: 50px;
-    text-align-last: center;
     background: #35414a;
     color: white;
     border: none;
