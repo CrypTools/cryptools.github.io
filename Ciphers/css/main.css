@@ -99,7 +99,7 @@ textarea {
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Hacked';
 }
 
@@ -232,6 +232,13 @@ input.key {
     outline: none;
     border-radius: 1px;
     font-family: 'Inconsolata';
+}
+.readme {
+	width: 90vw;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	word-wrap: break-word;
 }
 /* ==========================================================================
    Helper classes
