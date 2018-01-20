@@ -198,6 +198,7 @@ section>h1 {
 section>p {
     font-family: 'Inconsolata', monospace;
     text-align: justify;
+	max-width: 800px;
 }
 
 a {
