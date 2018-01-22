@@ -1,0 +1,15 @@
+- name: XOR Cipher
+  github: XORCipher
+  icon: xor
+
+- name: ROT13 Cipher
+  github: ROT13Cipher
+  icon: rot13
+
+- name: Bit Shift Cipher
+  github: BitShiftCipher
+  icon: bit-shift
+
+- name: Railfence Cipher
+  github: RailfenceCipher
+  icon: railfence
