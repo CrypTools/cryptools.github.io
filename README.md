@@ -1,8 +1,11 @@
 # CrypTools website
 
 <p align="center">
-    <img height="256" src="/img/logo.png">
-    <img src="//img.sheilds.io/github/license/cryptools/cryptools.github.io.svg">
+    <img height="256" src="/img/Logo.png">
+</p>
+<p align="center">
+    <img src="https://img.shields.io/github/license/Cryptools/cryptools.github.io.svg">
+    <img src="https://img.shields.io/github/contributors/Cryptools/cryptools.github.io.svg">
 </p>
 
 Ciphers explained and implemented in several programming languages.
