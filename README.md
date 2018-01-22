@@ -23,7 +23,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Lucas Gruwez** - *Website design and code* - [@lucasgruwez](https://github.com/lucasgruwez)
 * **Arthur Guiot** - *Owner of CrypTools* - [@arguiot](https://github.com/arguiot)
-* **George Lashterg** - *Owner of CrypTools* - [@lashterg](https://github.com/lashterg)
+* **Luka Lafaye de Micheaux** - *Owner of CrypTools* - [@lukalafaye](https://github.com/lukalafaye)
 
 See also the list of [contributors](https://github.com/cryptools/cryptools.github.io/contributors) who participated in this project.
 
