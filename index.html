@@ -3,74 +3,72 @@ layout: html
 title: CrypTools
 description: Ciphers explained and implemented in several programming languages.
 ---
-
 <nav class="container">
-    <a href="/" class="logo"></a>
-    <button id="menu-toggle"><i class="material-icons">menu</i></button>
-    <ul>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#ciphers">Ciphers</a></li>
-        <li><a href="https://github.com/cryptools">Github</a></li>
-    </ul>
+	<a href="/" class="logo"></a>
+	<button id="menu-toggle"><i class="material-icons">menu</i></button>
+	<ul>
+		<li><a href="#about">About us</a></li>
+		<li><a href="/Ciphers">Ciphers</a></li>
+		<li><a href="https://github.com/cryptools">Github</a></li>
+	</ul>
 </nav>
 
 <header class="grid">
-    <div class="row">
-        <div class="logo col col-2-of-4 col-m-4-of-4"></div>
-        <h1 class="col col-2-of-4 col-m-4-of-4">Ciphers explained and implemented in several programming languages.</h1>
-    </div>
+	<div class="row">
+		<div class="logo col col-2-of-4 col-m-4-of-4"></div>
+		<h1 class="col col-2-of-4 col-m-4-of-4">Ciphers explained and implemented in several programming languages.</h1>
+	</div>
 </header>
 
 <section id="about">
-    <div class="grid">
-        <h1>About us</h1>
-        <div class="row">
-            <div class="col col-2-of-4 col-m-4-of-4">
-                <i class="material-icons">people</i>
-                <h2>Who we are</h2>
-                <p>
-                    We are a small community of programmers passionate about cryptography.
-                </p>
-            </div>
-            <div class="col col-2-of-4 col-m-4-of-4">
-                <i class="material-icons">code</i>
-                <h2>What we do</h2>
-                <p>
-                    We want to make cryptography accessible to everyone, with the help of code.
-                </p>
-            </div>
-        </div>
-    </div>
+	<div class="grid">
+		<h1>About us</h1>
+		<div class="row">
+			<div class="col col-2-of-4 col-m-4-of-4">
+				<i class="material-icons">people</i>
+				<h2>Who we are</h2>
+				<p>
+					We are a small community of programmers passionate about cryptography.
+				</p>
+			</div>
+			<div class="col col-2-of-4 col-m-4-of-4">
+				<i class="material-icons">code</i>
+				<h2>What we do</h2>
+				<p>
+					We want to make cryptography accessible to everyone, with the help of code.
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <div id="ciphers" class="grid">
-    <div class="def">
-        <h1>Cipher</h1>
-        <h4>/ˈsʌɪfə/</h4>
-        <p>Algorithm used to disguise the meaning of a message</p>
-    </div>
-    <div class="row">
-        {% for cipher in site.data.ciphers %}
-            <a href="https://github.com/Cryptools/{{cipher.github}}" class="col col-1-of-4 col-m-2-of-4 col-s-4-of-4">
+	<div class="def">
+		<h1>Cipher</h1>
+		<h4>/ˈsʌɪfə/</h4>
+		<p>Algorithm used to disguise the meaning of a message</p>
+	</div>
+	<div class="row">
+		{% for cipher in site.data.ciphers %}
+		<a href="https://github.com/Cryptools/{{cipher.github}}" class="col col-1-of-4 col-m-2-of-4 col-s-4-of-4">
                 <img src="/img/{{cipher.icon}}.svg" alt="{{cipher.name}}">
                 <h3>{{cipher.name}}</h3>
-            </a>
-        {% endfor %}
-    </div>
+            </a> {% endfor %}
+	</div>
 </div>
 
 <footer>
-    <div class="container">
-        <img src="/img/logo-white.svg" alt="Cryptools" class="logo">
-        <p>
-            Copytight <span class="c">&copy;</span> <span class="year"></span> Cryptools All Rights Reserved
-            <small>
+	<div class="container">
+		<img src="/img/logo-white.svg" alt="Cryptools" class="logo">
+		<p>
+			Copytight <span class="c">&copy;</span> <span class="year"></span> Cryptools All Rights Reserved
+			<small>
                 Website designed and coded by <a href="https://github.com/lucasgruwez">@lucasgruwez</a>
             </small>
-        </p>
-    </div>
+		</p>
+	</div>
 </footer>
 
 <script>
-    document.querySelector('.year').innerHTML = new Date().getFullYear()
+	document.querySelector('.year').innerHTML = new Date().getFullYear()
 </script>
