@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame 2.2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(4 0 0 4 -1168 -80)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 292 20L 308 20L 308 36L 292 36L 292 20Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame 2.2" clip-path="url(#clip-0)">
+<path d="M 292 20L 308 20L 308 36L 292 36L 292 20Z" fill="#FFFFFF"/>
+<g id="Vector (Stroke)">
+<use xlink:href="#path0_fill" transform="translate(294 22)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.375 10.625L 0 10.625L 0 9.375L 1.375 9.375L 1.375 2.625L 0 2.625L 0 1.375L 1.375 1.375L 1.375 7.10543e-15L 2.625 7.10543e-15L 2.625 1.375L 5.375 1.375L 5.375 7.10543e-15L 6.625 3.55271e-15L 6.625 1.375L 9.375 1.375L 9.375 3.55271e-15L 10.625 0L 10.625 1.375L 12 1.375L 12 2.625L 10.625 2.625L 10.625 9.375L 12 9.375L 12 10.625L 10.625 10.625L 10.625 12L 9.375 12L 9.375 10.625L 6.625 10.625L 6.625 12L 5.375 12L 5.375 10.625L 2.625 10.625L 2.625 12L 1.375 12L 1.375 10.625ZM 2.625 9.375L 5.375 9.375L 5.375 2.625L 2.625 2.625L 2.625 9.375ZM 6.625 2.625L 6.625 9.375L 9.375 9.375L 9.375 2.625L 6.625 2.625Z"/>
+</defs>
+</svg>

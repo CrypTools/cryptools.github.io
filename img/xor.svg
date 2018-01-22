@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(4 0 0 4 -1088 0)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 272 0L 288 0L 288 16L 272 16L 272 0Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame 2" clip-path="url(#clip-0)">
+<path d="M 272 0L 288 0L 288 16L 272 16L 272 0Z" fill="#FFFFFF"/>
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(273 1)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(273 1)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 14 7C 14 10.866 10.866 14 7 14C 3.13401 14 0 10.866 0 7C 0 3.13401 3.13401 0 7 0C 10.866 0 14 3.13401 14 7Z"/>
+<path id="path1_stroke_2x" d="M 7.625 14L 7.625 0L 6.375 0L 6.375 14L 7.625 14ZM 0 7.625L 14 7.625L 14 6.375L 0 6.375L 0 7.625ZM 12.75 7C 12.75 10.1756 10.1756 12.75 7 12.75L 7 15.25C 11.5563 15.25 15.25 11.5563 15.25 7L 12.75 7ZM 7 12.75C 3.82436 12.75 1.25 10.1756 1.25 7L -1.25 7C -1.25 11.5563 2.44365 15.25 7 15.25L 7 12.75ZM 1.25 7C 1.25 3.82436 3.82436 1.25 7 1.25L 7 -1.25C 2.44365 -1.25 -1.25 2.44365 -1.25 7L 1.25 7ZM 7 1.25C 10.1756 1.25 12.75 3.82436 12.75 7L 15.25 7C 15.25 2.44365 11.5563 -1.25 7 -1.25L 7 1.25Z"/>
+</defs>
+</svg>
