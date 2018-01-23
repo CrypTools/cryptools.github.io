@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+	<!-- Add your site or application content here -->
+	<div class="menu">
+		<pre>
+&#x3C;ul&#x3E;
+    &#x3C;li&#x3E;<a class="code" href="/">Home</a>&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;<a class="code" href="https://github.com/CrypTools">GitHub</a>&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;<a class="code" href="mailto:arguiot@gmail.com">Contact</a>&#x3C;/li&#x3E;
+&#x3C;/ul&#x3E;
+	</pre>
+	</div>
+	<div class="hamburger">
+		<i class="fa fa-bars" aria-hidden="true"></i>
+	</div>
+	<select class="f" target="cipher">
+		<optgroup label="Ciphers">
+			<option>AESCipher</option>
+			<option>AffineCipher</option>
+			<option>ATBASHCipher</option>
+			<option>BitShiftCipher</option>
+			<option>CaesarCipher</option>
+			<option>RailfenceCipher</option>
+			<option>ROT13Cipher</option>
+			<option>VigenereCipher</option>
+			<option>XORCipher</option>
+		</optgroup>
+		<optgroup label="Hash Functions">
+			<option>MD5</option>
+			<option selected value="SHA256">SHA256</option>
+		</optgroup>
+	</select>
+	<div class="dropicon">
+		<i class="fa fa-sort-desc" aria-hidden="true"></i>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="textarea in" contenteditable="true" target="in">CrypTools</div>
+		</div>
+		<div class="container cell-row">
+			<div class="textarea out" contenteditable="true" target="out">
+				204b0ffa8a47515babb62f3461780386f6b3dee80e335c048d7a26ad5e5bf1e6
+			</div>
+		</div>
+	</div>
+	<div class="readme">
+		
+	</div>
+	<input type="text" class="key" placeholder="Your key here (if needed)" value="key" target="key">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/DisplayJS/2.3.0/display.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/libCiphers.js" charset="utf-8"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109503398-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-109503398-2');
+	</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+    "what-h1": {
+        "en": "What is it?",
+        "fr": "Qu'est-ce que c'est?"
+    },
+    "what-p": {
+        "en": "<b>CrypTools</b> is an organisation who tries to deliver great ciphers and hash functions. Basically, we provide multiple ways of encrypting messages in various programming languages so that you can safely and anonymously communicate with anyone. All our snippets / piece of code are licensed using the <b>MIT License</b> and explained with simple <code>README.md</code>. We are waiting for new contributors who are also passionate about modern cryptography, to help others being more productive. Because we truly believe that we can make the world 🌎 a more secure place.",
+        "fr": "<b>CrypTools</b> est une organisation qui essaie de fournir d'excellentes fonctions de chiffrement et de hashage. Fondamentalement, nous fournissons plusieurs façons de crypter des messages dans divers langages de programmation pour que vous puissiez communiquer de manière sécurisé avec n'importe qui. Tous nos snippets / morceau de code sont publiés en utilisant la <b>License MIT </b> et expliqués avec un simple <code>README.md</code>. Nous attendons de nouveaux contributeurs qui sont aussi passionnés par la cryptographie moderne, pour aider chacun à être plus productifs. Parce que nous croyons vraiment que nous pouvons faire du monde 🌎 un endroit plus sécurisé."
+    },
+    "who-h1": {
+        "en": "Who are we?",
+        "fr": "Qui sommes-nous?"
+    },
+    "who-p": {
+        "en": "We are two Year 10 French 🇫🇷 students who are passionate about computer science. We both work on Unix-Like Operating Systems (Linux / macOS (🤮 Windows)) and think that Cryptography is important to stay anonymous while communicating with others. We love ❤️ to share our projects and solutions on GitHub.",
+        "fr": "Nous sommes deux étudiants français 🇫🇷 de seconde qui sont passionnés par l'informatique. Nous travaillons tous les deux sur des systèmes d'exploitation de type Unix (Linux / macOS (🤮 Windows)) et pensons que la cryptographie est importante pour rester anonyme tout en communiquant avec les autres. Nous aimons ❤️ partager nos projets et solutions sur GitHub."
+    },
+    "contrib-h1": {
+        "en": "How to contribute?",
+        "fr": "Comment contribuer?"
+    },
+    "contrib-p": {
+        "en": "We're always trying to provide all of our ciphers and functionality with the majority of existing programming languages. However, we would need new contributors programming in different languages.<br>Also, we try to provide several README markdown files to simply explain each cipher. If you could help us creating those, it would be very appreciated.<br>Finally, if you’re not able to help, remember that leaving a star ⭐️ on our projects can help get more people involved !",
+        "fr": "Nous essayons toujours de fournir tous nos chiffrements et fonctionnalités avec la majorité des langages de programmation existants. Cependant, nous aurions besoin de nouveaux contributeurs programmant dans différentes langues. <br> Nous essayons également de fournir plusieurs fichiers de démarques README pour simplement expliquer chaque chiffrements. Si vous pouviez nous aider à les créer, cela nous aiderais beaucoup 😊. <br> Enfin, si vous n'êtes pas capable d'aider, rappelez-vous que laisser une étoile ⭐ sur nos projets peut aider à impliquer davantage de personnes!"
+    }
+}
