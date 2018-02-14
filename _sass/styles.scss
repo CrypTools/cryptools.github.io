@@ -274,7 +274,13 @@ footer {
         small {
             font-size: 100%;
             display: block;
-            opacity: .6;
+            color: rgba(#fff, .6);
+            i {
+                font-size: inherit;
+                color: #c62828;
+                position: relative;
+                top: 3px;
+            }
         }
     }
 }
