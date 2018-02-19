@@ -1,0 +1,32 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Random</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-107 -962)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 107 962L 1107 962L 1107 1962L 107 1962L 107 962Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Random" clip-path="url(#clip-0)">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(107 962)"/>
+</g>
+<g id="Points">
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(267 1122)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(767 1122)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(267 1622)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(767 1622)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 200C 0 89.5431 89.5431 0 200 0L 800 0C 910.457 0 1000 89.5431 1000 200L 1000 800C 1000 910.457 910.457 1000 800 1000L 200 1000C 89.5431 1000 0 910.457 0 800L 0 200Z"/>
+<path id="path1_fill" d="M 200 100C 200 155.228 155.228 200 100 200C 44.7715 200 0 155.228 0 100C 0 44.7715 44.7715 0 100 0C 155.228 0 200 44.7715 200 100Z"/>
+</defs>
+</svg>
