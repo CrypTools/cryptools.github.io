@@ -43,3 +43,25 @@ function load(c) {
 		})
 	})
 }
+
+class Ciphers {
+    constructor() {
+        this.select  = document.querySelector('#ciphers .demo select')
+        this.cipher  = this.select.value
+        document.getElementById(this.cipher).classList.add('active')
+
+        this.swap    = this.swap.bind(this)
+    }
+
+    swap() {
+        if (this.cipher != this.select.value) {
+
+            document.getElementById(this.cipher).classList.remove('active')
+            this.cipher = this.select.value
+            document.getElementById(this.cipher).classList.add('active')
+
+        }
+    }
+}
+
+c = new Ciphers()
