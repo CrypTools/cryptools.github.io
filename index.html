@@ -58,6 +58,44 @@ description: Ciphers explained and implemented in several programming languages.
             </a>
         {% endfor %}
     </div>
+    <div class="demo">
+        <h1>Test our ciphers</h1>
+        <select class="demo-select" onchange="c.swap()">
+            {% for cipher in site.data.ciphers %}
+                <option value="{{cipher.github}}">{{cipher.name}}</option>
+            {% endfor %}
+        </select>
+
+        {% for cipher in site.data.ciphers %}
+
+        <div id="{{cipher.github}}">
+
+            <label for="#{{cipher.github}}-input" class="large">
+                Text to encrypt
+                <br>
+                <input placeholder="Message..." type="text" id="{{cipher.github}}-input">
+            </label>
+
+            {% for key in cipher.key %}
+                <label for="#{{cipher.github}}-key">
+                    {{key.name}}
+                    <br>
+                    <input placeholder="{{key.name}}" type="{{key.type}}" id="{{cipher.github}}-key">
+                </label>
+            {% endfor%}
+
+        </div>
+
+        {% endfor %}
+
+        <div id="output">
+            <h3>Output:</h3>
+            <p>
+                Not done yet. Code is coming. Soon. I promise. - @lucasgruwez
+            </p>
+        </div>
+
+    </div>
 </section>
 
 <section id="join">

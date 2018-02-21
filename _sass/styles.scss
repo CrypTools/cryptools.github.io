@@ -194,6 +194,44 @@ header {
             padding: 24px 0;
         }
     }
+    .demo {
+        margin-top: 96px;
+        select {margin-left: 10px;}
+        select, input {
+            padding: 4px 16px;
+            height: 32px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            margin-bottom: 24px;
+            margin-top: 4px;
+            border-radius: 2pt;
+            background: rgba(0,0,0,.01);
+            &:focus {
+                outline: none;
+                border-color: #2196F3;
+                box-shadow: 0 0 0 2px #BBDEFB;
+            }
+        }
+        div:not(#output) {
+            display: none;
+            flex-wrap: nowrap;
+            &.active {
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+            }
+            label {
+                width: 50%;
+                margin: 0 10px;
+                &.large {
+                    width: 100%;
+                }
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 /* ==========================================================================
