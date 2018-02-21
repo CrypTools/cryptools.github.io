@@ -234,6 +234,19 @@ header {
     }
 }
 
+@media (max-width: 840px) {
+    #ciphers .demo div:not(#output) {
+        flex-direction: column;
+        margin-bottom: 16px;
+        label {
+            width: 100% !important;
+            input {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
 /* ==========================================================================
    Join
    ========================================================================== */
