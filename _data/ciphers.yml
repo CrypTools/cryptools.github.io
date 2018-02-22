@@ -3,13 +3,17 @@
 # icon   -> Name of the svg icon used in README
 # key    -> used for Ciphers section. Text input for data to encode is assumed.
 
+- name: Base64
+  github: Base64
+  icon: base64
+  # no key
 - name: Bit Shift Cipher
   github: BitShiftCipher
   icon: bit-shift
   key:
     - name: Key
       type: text
-      
+
 - name: Railfence Cipher
   github: RailfenceCipher
   icon: railfence
