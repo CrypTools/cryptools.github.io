@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame 5</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(4 0 0 4 -1168 -160)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 292 40L 308 40L 308 56L 292 56L 292 40Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame 5" clip-path="url(#clip-0)">
+<path d="M 292 40L 308 40L 308 56L 292 56L 292 40Z" fill="#FFFFFF"/>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(293 41)"/>
+<use xlink:href="#path1_fill" transform="translate(293 41)"/>
+<use xlink:href="#path2_fill" transform="translate(293 41)"/>
+<use xlink:href="#path3_fill" transform="translate(293 41)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 6 8L 6 6L 8 6L 8 8L 6 8Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 3 5L 3 3L 5 3L 5 5L 3 5Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 9 11L 9 9L 11 9L 11 11L 9 11Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 12.75 1.25L 1.25 1.25L 1.25 12.75L 12.75 12.75L 12.75 1.25ZM 0 0L 0 14L 14 14L 14 0L 0 0Z"/>
+</defs>
+</svg>
