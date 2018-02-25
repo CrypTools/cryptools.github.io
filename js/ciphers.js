@@ -102,6 +102,13 @@ class Ciphers {
 				}
 
 			}
+
+			let msg = document.querySelectorAll(".large > input")
+
+			for (let i = 0; i < msg.length; i++) {
+				msg[i].value = args[0]
+			}
+
 			const rendered = this.controller.encrypt(...args)
 			document.querySelector("#output > pre").innerHTML = rendered
 		}
