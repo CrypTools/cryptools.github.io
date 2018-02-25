@@ -21,11 +21,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Lucas Gruwez** - *Website design and code* - [@lucasgruwez](https://github.com/lucasgruwez)
-* **Arthur Guiot** - *Owner of CrypTools* - [@arguiot](https://github.com/arguiot)
-* **Luka Lafaye de Micheaux** - *Owner of CrypTools* - [@lukalafaye](https://github.com/lukalafaye)
+Made with ❤️ at CrypTools.
 
-See also the list of [contributors](https://github.com/cryptools/cryptools.github.io/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/CrypTools/cryptools.github.io/contributors) who participated in this project.
 
 ## License
 
