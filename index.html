@@ -48,7 +48,8 @@ description: Ciphers explained and implemented in several programming languages.
     <div class="def">
         <h1>Cipher</h1>
         <h4>/ˈsʌɪfə/</h4>
-        <p>Algorithm used to disguise the meaning of a message.</p>
+        <p>Algorithm used to disguise the meaning of a message</p>
+		    <b>Highlights:</b>
     </div>
     <div class="row">
         {% for cipher in site.data.ciphers %}
@@ -57,6 +58,44 @@ description: Ciphers explained and implemented in several programming languages.
                 <h3>{{cipher.name}}</h3>
             </a>
         {% endfor %}
+    </div>
+    <div class="demo">
+        <h1>Test our ciphers</h1>
+        <select class="demo-select" onchange="c.swap()">
+            {% for cipher in site.data.ciphers %}
+                <option value="{{cipher.github}}">{{cipher.name}}</option>
+            {% endfor %}
+        </select>
+
+        {% for cipher in site.data.ciphers %}
+
+        <div id="{{cipher.github}}">
+
+            <label for="#{{cipher.github}}-input" class="large">
+                Text to encrypt
+                <br>
+                <input placeholder="Message..." type="text" id="{{cipher.github}}-input">
+            </label>
+
+            {% for key in cipher.key %}
+                <label for="#{{cipher.github}}-key">
+                    {{key.name}}
+                    <br>
+                    <input placeholder="{{key.name}}" type="{{key.type}}" id="{{cipher.github}}-key">
+                </label>
+            {% endfor%}
+
+        </div>
+
+        {% endfor %}
+
+        <div id="output">
+            <h3>Output:</h3>
+            <pre>
+
+            </pre>
+        </div>
+
     </div>
 </section>
 
@@ -76,6 +115,9 @@ description: Ciphers explained and implemented in several programming languages.
 
 <section id="more" class="container">
     <h1>More Ciphers coming soon!</h1>
+	<div class="checkout">
+		But you can still checkout our other <a href="https://github.com/CrypTools">ciphers</a>
+	</div>
 </section>
 
 <footer>
