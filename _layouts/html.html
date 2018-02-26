@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{{page.title}}</title>
-        <meta name="description" content="{{page.description}}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="apple-touch-icon" href="icon.png">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>{{page.title}}</title>
+	<meta name="description" content="{{page.description}}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- stylesheets -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&amp;subset=latin-ext">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://unpkg.com/waffle-grid">
-        <link rel="stylesheet" href="https://unpkg.com/normalize.css">
-        <link rel="stylesheet" href="/css/main.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="icon.png">
 
-		<!-- G search console -->
-		<meta name="google-site-verification" content="-LCTezk_rBhGS9eKN01XQlQ1QN9XSKZWE-U8zDxJ0jA" />
-    </head>
-    <body>
-        <!--[if lte IE 9]
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&amp;subset=latin-ext">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://unpkg.com/waffle-grid">
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css">
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!-- G search console -->
+	<meta name="google-site-verification" content="-LCTezk_rBhGS9eKN01XQlQ1QN9XSKZWE-U8zDxJ0jA" />
+</head>
+
+<body>
+	<!--[if lte IE 9]
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        {{content}}
+	{{content}}
 
-        <script async src="https://www.w3counter.com/tracker.js?id=116354"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109503398-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+	<script async src="https://www.w3counter.com/tracker.js?id=116354"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109503398-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-            gtag('config', 'UA-109503398-2');
-        </script>
-		<script src="/js/menu.js"></script>
-        <script src="/js/ciphers.js"></script>
-    </body>
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-109503398-2');
+	</script>
+	<script src="/js/menu.js"></script>
+	<script src="/js/ciphers.js"></script>
+	<!-- Structured Data -->
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"url": "https://cryptools.github.io",
+			"logo": "https://cryptools.github.io/img/Logo.png"
+		}
+	</script>
+</body>
+
 </html>
