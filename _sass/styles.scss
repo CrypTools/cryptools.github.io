@@ -94,7 +94,7 @@ nav {
 			}
 
 			&.active {
-				height: 384px;
+				height: 640px;
 
 				&::after {
 					content: '';
@@ -276,6 +276,36 @@ pre {
 	background-color: #f6f8fa;
 	border-radius: 3px;
 }
+/* ==========================================================================
+	Learn
+   ========================================================================== */
+
+#learn {
+	padding: 96px 0;
+	.row {
+		align-items: center;
+	}
+
+	h1 {
+		margin-top: 4px;
+		margin-bottom: 52px;
+	}
+
+	a {
+		box-sizing: border-box;
+		text-align: center;
+		display: inline-block;
+		padding: 12px 64px;
+		background-color: #292929;
+		color: #fff;
+		text-decoration: none;
+		margin-top: 48px;
+	}
+	i {
+		font-size: 220px;
+	}
+}
+
 /* ==========================================================================
    Join
    ========================================================================== */
