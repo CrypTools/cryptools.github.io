@@ -1,0 +1,61 @@
+---
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Page Not Found</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono">
+	<style>
+		body {
+			color: rgba(0, 0, 0, 0.4);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Roboto', sans-serif;
+			height: 100vh;
+			text-align: center;
+			-webkit-font-smoothing: antialiased;
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+		h1 {
+			font-size: 150px;
+			font-family: 'Roboto Mono', monospace, sans-serif;
+			vertical-align: baseline;
+		}
+
+		p {
+			line-height: 21px;
+		}
+
+		@media (max-width: 800px) {
+			h1 {
+				font-size: 100px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1 id="em">Page Not Found</h1>
+	<p>Sorry, but the page you were trying to view does not exist.</p>
+	<script>
+		var em = "\\(^\u0414^)/ (\u0387.\u0387) (\u02da\u0394\u02da)b (\u0387_\u0387) (^_^)b (>_<) (o^^)o (;-;) (\u2265o\u2264) \\(o_o)/ (^-^*) (='X'=)".split(" ")
+		var c = em[Math.floor(Math.random() * em.length)]
+		document.getElementById("em").innerHTML = c;
+
+		document.body.addEventListener("click", function() {
+			window.location = "/"
+		})
+	</script>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
