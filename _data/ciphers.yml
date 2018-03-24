@@ -3,9 +3,13 @@
 # icon   -> Name of the svg icon used in README
 # key    -> used for Ciphers section. Text input for data to encode is assumed.
 
-- name:     ATBASH Cipher
-  github:   ATBASHCipher
-  icon:     atbash
+- name: ATBASH Cipher
+  github: ATBASHCipher
+  icon: atbash
+  # no key
+- name: Base64
+  github: Base64
+  icon: base64
   # no key
 - name:     Base64
   github:   Base64
