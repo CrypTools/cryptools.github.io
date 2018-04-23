@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ATBASH</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4143 -124)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 4143 124L 5143 124L 5143 1124L 4143 1124L 4143 124Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="ATBASH" clip-path="url(#clip-0)">
+<path d="M 4143 124L 5143 124L 5143 1124L 4143 1124L 4143 124Z" fill="#FFFFFF"/>
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="matrix(-1.05818e-16 1 -1 -1.05818e-16 4618 349)"/>
+</g>
+<g id="A">
+<use xlink:href="#path1_fill" transform="translate(4143 349)"/>
+</g>
+<g id="Z">
+<use xlink:href="#path2_fill" transform="translate(4668 349)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 550 0L 550 -50L 0 -50L 0 0Z"/>
+<path id="path1_fill" d="M 271.109 334.75L 203.469 334.75L 191.656 373L 138.922 373L 214.016 168.25L 260.422 168.25L 336.078 373L 283.062 373L 271.109 334.75ZM 215.281 296.641L 259.297 296.641L 237.219 225.625L 215.281 296.641Z"/>
+<path id="path2_fill" d="M 220.484 335.031L 318.359 335.031L 318.359 373L 158.891 373L 158.891 346.984L 256.484 206.359L 158.328 206.359L 158.328 168.25L 317.375 168.25L 317.375 193.562L 220.484 335.031Z"/>
+</defs>
+</svg>
