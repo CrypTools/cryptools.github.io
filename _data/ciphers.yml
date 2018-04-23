@@ -11,10 +11,6 @@
   github:   Base64
   icon:     base64
   # no key
-- name:     Base64
-  github:   Base64
-  icon:     base64
-  # no key
 - name:     Bit Shift Cipher
   github:   BitShiftCipher
   icon:     bit-shift
