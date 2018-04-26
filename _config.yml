@@ -1,6 +1,20 @@
-markdown: kramdown
-highlighter: rouge
+markdown:        kramdown
+highlighter:     rouge
 
-permalink: pretty
+permalink:       pretty
 
-url: cryptools.github.io
+url:             cryptools.github.io
+
+app:
+    mac:
+        version: v0.1
+        link:    https://github.com/CrypTools/macOS-Software/releases/download/
+        file:    CrypTools.zip
+    windows:
+        version: v0.1
+        link:    https://github.com/el-famos0/software/releases/download/
+        file:    build-release-windows-x32.zip
+    linux:
+        version: v0.1
+        link:    https://github.com/el-famos0/software/releases/download/
+        file:    build-release-linuxelf-x64.zip

@@ -371,6 +371,8 @@ section.apps {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
 
 	img {
 		width: 50vw;
@@ -414,6 +416,8 @@ section.apps {
 		margin: 0 auto;
 		padding-bottom: 50px;
 		border-bottom: 1px solid #ddd;
+		flex-wrap: wrap-reverse;
+
 		a {
 			color: #026fc9;
 			transition: 130ms ease-in-out;
@@ -423,10 +427,16 @@ section.apps {
 			letter-spacing: -0.016em;
 			text-decoration: none;
 			margin-top: 45px;
+			min-width: 150px;
+			text-align: center;
 
 			svg > path {
 				fill: #026fc9;
 				transition: 130ms ease-in-out;
+			}
+
+			i {
+				vertical-align: middle;
 			}
 
 			&:hover {
