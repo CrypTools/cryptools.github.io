@@ -5,148 +5,168 @@ description: Ciphers explained and implemented in several programming languages.
 ---
 
 <nav class="container">
-    <a href="/" class="logo"></a>
-    <button id="menu-toggle"><i class="material-icons">menu</i></button>
-    <ul>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#ciphers">Ciphers</a></li>
-        <li><a href="#join">Want to help?</a></li>
+	<a href="/" class="logo"></a>
+	<button id="menu-toggle"><i class="material-icons">menu</i></button>
+	<ul>
+		<li><a href="#about">About us</a></li>
+		<li><a href="#ciphers">Ciphers</a></li>
+		<li><a href="#join">Want to help?</a></li>
 		<li><a href="learn"><b>Learn</b></a></li>
-        <li><a href="https://github.com/cryptools">GitHub</a></li>
-    </ul>
+		<li><a href="https://github.com/cryptools">GitHub</a></li>
+	</ul>
 </nav>
 
 <header class="grid">
-    <div class="row">
-        <div class="logo col col-2-of-4 col-m-4-of-4"></div>
-        <h1 class="col col-2-of-4 col-m-4-of-4">Ciphers explained and implemented in several programming languages.</h1>
-    </div>
+	<div class="row">
+		<div class="logo col col-2-of-4 col-m-4-of-4"></div>
+		<h1 class="col col-2-of-4 col-m-4-of-4">Ciphers explained and implemented in several programming languages.</h1>
+	</div>
 </header>
 
 <section id="about">
-    <div class="grid">
-        <h1>About us</h1>
-        <div class="row">
-            <div class="col col-2-of-4 col-m-4-of-4">
-                <i class="material-icons">people</i>
-                <h2>Who we are</h2>
-                <p>
-                    We are a small community of programmers passionate about cryptography.
-                </p>
-            </div>
-            <div class="col col-2-of-4 col-m-4-of-4">
-                <i class="material-icons">code</i>
-                <h2>What we do</h2>
-                <p>
-                    We want to make cryptography accessible to everyone, with the help of code.
-                </p>
-            </div>
-        </div>
-    </div>
+	<div class="grid">
+		<h1>About us</h1>
+		<div class="row">
+			<div class="col col-2-of-4 col-m-4-of-4">
+				<i class="material-icons">people</i>
+				<h2>Who we are</h2>
+				<p>
+					We are a small community of programmers passionate about cryptography.
+				</p>
+			</div>
+			<div class="col col-2-of-4 col-m-4-of-4">
+				<i class="material-icons">code</i>
+				<h2>What we do</h2>
+				<p>
+					We want to make cryptography accessible to everyone, with the help of code.
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section id="ciphers" class="grid">
-    <div class="def">
-        <h1>Cipher</h1>
-        <h4>/ˈsʌɪfə/</h4>
-        <p>Algorithm used to disguise the meaning of a message</p>
-		    <b>Highlights:</b>
-    </div>
-    <div class="row">
-        {% for cipher in site.data.ciphers %}
-            <a href="https://github.com/Cryptools/{{cipher.github}}/blob/master/README.md" class="col col-1-of-4 col-m-2-of-4 col-s-4-of-4">
+	<div class="def">
+		<h1>Cipher</h1>
+		<h4>/ˈsʌɪfə/</h4>
+		<p>Algorithm used to disguise the meaning of a message</p>
+		<b>Highlights:</b>
+	</div>
+	<div class="row">
+		{% for cipher in site.data.ciphers %}
+		<a href="https://github.com/Cryptools/{{cipher.github}}/blob/master/README.md" class="col col-1-of-4 col-m-2-of-4 col-s-4-of-4">
                 <img src="/img/{{cipher.icon}}.svg" alt="{{cipher.name}}" width="64" height="64">
                 <h3>{{cipher.name}}</h3>
-            </a>
-        {% endfor %}
-    </div>
-    <div class="demo">
-        <h1>Test our ciphers</h1>
-        <select class="demo-select" onchange="c.swap()">
+            </a> {% endfor %}
+	</div>
+	<div class="demo">
+		<h1>Test our ciphers</h1>
+		<select class="demo-select" onchange="c.swap()">
             {% for cipher in site.data.ciphers %}
                 <option value="{{cipher.github}}">{{cipher.name}}</option>
             {% endfor %}
-        </select>
+        </select> {% for cipher in site.data.ciphers %}
 
-        {% for cipher in site.data.ciphers %}
+		<div id="{{cipher.github}}">
 
-        <div id="{{cipher.github}}">
-
-            <label for="#{{cipher.github}}-input" class="large">
+			<label for="#{{cipher.github}}-input" class="large">
                 Text to encrypt
                 <br>
                 <input placeholder="Message..." type="text" id="{{cipher.github}}-input">
-            </label>
-
-            {% for key in cipher.key %}
-                <label for="#{{cipher.github}}-key">
+            </label> {% for key in cipher.key %}
+			<label for="#{{cipher.github}}-key">
                     {{key.name}}
                     <br>
                     <input placeholder="{{key.name}}" type="{{key.type}}" id="{{cipher.github}}-key">
-                </label>
-            {% endfor%}
+                </label> {% endfor%}
 
-        </div>
+		</div>
 
-        {% endfor %}
+		{% endfor %}
 
-        <div id="output">
-            <h3>Output:</h3>
-            <pre>
+		<div id="output">
+			<h3>Output:</h3>
+			<pre>
 
             </pre>
-        </div>
+		</div>
 
-    </div>
+	</div>
 </section>
 <section id="learn">
 	<div class="grid">
 		<div class="row">
 			<h1 class="col col-4col-4-of-4">Ready to learn?</h1>
 			<p class="col col-3-of-4 col-m-4-of-4">
-				We provide a free online course to learn cryptography. You'll try to solve problems and challenges to understand
-				what cryptography is all about. And even if you already know cryptography you should definitely try because challenges
-				are fun and are becoming really hard at the end.
+				We provide a free online course to learn cryptography. You'll try to solve problems and challenges to understand what cryptography is all about. And even if you already know cryptography you should definitely try because challenges are fun and are becoming
+				really hard at the end.
 				<br>
-                <a href="learn">Let's go!</a>
+				<a href="learn">Let's go!</a>
 			</p>
 			<i class="col col-1-of-4 col-m-3-of-4 material-icons">school</i>
 		</div>
 	</div>
 </section>
 <section id="join">
-    <div class="grid">
-        <div class="row">
-            <h1 class="col col-4-of-4">Want to help?</h1>
-            <p class="col col-3-of-4 col-m-4-of-4">
-                All our code is open source and hosted on GitHub, so if you want to contribute to any cipher or other project of ours, please do so! We love welcoming new contributors to our growing community. If you want to become a member, all you need to do is make at least 3 contrutions in 2 weeks (pull requests), and we'll send you an invite.
-                <br>
-                <a href="https://github.com/CrypTools">GitHub</a>
-            </p>
-            <img src="/img/github.svg" alt="GitHub" class="col col-1-of-4 col-m-3-of-4">
-        </div>
-    </div>
+	<div class="grid">
+		<div class="row">
+			<h1 class="col col-4-of-4">Want to help?</h1>
+			<p class="col col-3-of-4 col-m-4-of-4">
+				All our code is open source and hosted on GitHub, so if you want to contribute to any cipher or other project of ours, please do so! We love welcoming new contributors to our growing community. If you want to become a member, all you need to do is make
+				at least 3 contrutions in 2 weeks (pull requests), and we'll send you an invite.
+				<br>
+				<a href="https://github.com/CrypTools">GitHub</a>
+			</p>
+			<img src="/img/github.svg" alt="GitHub" class="col col-1-of-4 col-m-3-of-4">
+		</div>
+	</div>
 </section>
+<section class="apps" id="apps">
+	<img src="/img/Mockup.jpg" alt="">
+	<h1>Download our apps</h1>
+	<h2>Available on <b>every</b> platforms</h2>
+	<p>
+		Optimized for every platforms, our apps will help you understand cryptography at its core by experimenting. Written in Swift for Apple devices and in C++ for Windows and Linux, we ensure maximum performances for an optimal experience.
+	</p>
+	<div class="download">
+		<a href="{{site.app.linux.link}}{{site.app.linux.version}}/{{site.app.linux.file}}">
+			Linux
+			<i class="material-icons">file_download</i>
+		</a>
+		<a href="{{site.app.windows.link}}{{site.app.windows.version}}/{{site.app.windows.file}}">
+			Windows
+			<i class="material-icons">file_download</i>
+		</a>
+		<a href="{{site.app.mac.link}}{{site.app.mac.version}}/{{site.app.mac.file}}">
+			macOS
+			<i class="material-icons">file_download</i>
+		</a>
+		<a href="" style="text-decoration: line-through;">
+			App Store
+			<svg xmlns="http://www.w3.org/2000/svg" class="link__icon is-appstore" width="21" height="18" viewBox="0 0 42 36"><defs><style>.cls-1 {fill-rule: evenodd;}</style></defs><path id="Mac_app_store" data-name="Mac app store" class="cls-1" d="M38.581,28.014H35.051l2.4,4.149a2.51,2.51,0,1,1-4.348,2.51l-8.9-15.423c-0.163-.318-0.312-0.6-0.441-0.82a6.847,6.847,0,0,1,1.028-8.2l7.371,12.766h6.429A2.51,2.51,0,1,1,38.581,28.014Zm-22.915-5.02h7.4a3.651,3.651,0,0,1,3.385,5.02H3.44a2.51,2.51,0,1,1,0-5.02H9.869L18.112,8.716,15.528,4.24a2.51,2.51,0,0,1,4.348-2.51L21.011,3.7,22.146,1.73a2.51,2.51,0,1,1,4.348,2.51Zm-9.28,6.033a6.883,6.883,0,0,1,1.162-.1,6.812,6.812,0,0,1,3.963,1.265L8.923,34.673a2.51,2.51,0,1,1-4.348-2.51Z"></path></svg>
+		</a>
 
+	</div>
+</section>
 <section id="more" class="container">
-    <h1>More Ciphers coming soon!</h1>
+	<h1>More Ciphers coming soon!</h1>
 	<div class="checkout">
 		But you can still checkout our other <a href="https://github.com/CrypTools">ciphers</a>
 	</div>
 </section>
 
 <footer>
-    <div class="container">
-        <img src="/img/logo-white.svg" alt="Cryptools" class="logo">
-        <p>
-            Copyright <span class="c">&copy;</span> <span class="year"></span> CrypTools. All Rights Reserved.
-            <small>
+	<div class="container">
+		<img src="/img/logo-white.svg" alt="Cryptools" class="logo">
+		<p>
+			Copyright <span class="c">&copy;</span> <span class="year"></span> CrypTools. All Rights Reserved.
+			<small>
                 Made with <i class="material-icons">favorite</i> at <a href="https://github.com/CrypTools/cryptools.github.io/graphs/contributors">CrypTools</a>
             </small>
-        </p>
-    </div>
+		</p>
+	</div>
 </footer>
 
 <script>
-    document.querySelector('.year').innerHTML = new Date().getFullYear()
+	document.querySelector('.year').innerHTML = new Date().getFullYear()
 </script>

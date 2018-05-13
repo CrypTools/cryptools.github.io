@@ -279,9 +279,9 @@ pre {
 /* ==========================================================================
 	Learn
    ========================================================================== */
-
 #learn {
 	padding: 96px 0;
+
 	.row {
 		align-items: center;
 	}
@@ -301,11 +301,11 @@ pre {
 		text-decoration: none;
 		margin-top: 48px;
 	}
+
 	i {
 		font-size: 220px;
 	}
 }
-
 /* ==========================================================================
    Join
    ========================================================================== */
@@ -357,8 +357,96 @@ pre {
 		text-align: center;
 		font-size: 48px;
 	}
+
 	.checkout {
 		text-align: center;
+	}
+}
+/* ==========================================================================
+   Apps
+   ========================================================================== */
+section.apps {
+	font-family: -apple-system, BlinkMacSystemFont, "myriad-pro", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+
+	img {
+		width: 50vw;
+	}
+
+	h1 {
+		font-size: 73px;
+		font-weight: 700;
+		color: #0f0f0f;
+		line-height: 88px;
+		letter-spacing: -0.02em;
+	}
+
+	h2 {
+		margin-top: -12px;
+		font-size: 44px;
+		font-weight: 500;
+		color: #0f0f0f;
+		line-height: 53px;
+		letter-spacing: -0.0275em;
+	}
+
+	p {
+		width: 960px;
+		max-width: 80%;
+		margin: 0 auto;
+		font-size: 23px;
+		font-weight: 400;
+		color: #333333;
+		line-height: 35px;
+		letter-spacing: 0.004em;
+	}
+
+	.download {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 960px;
+		max-width: 80%;
+		margin: 0 auto;
+		padding-bottom: 50px;
+		border-bottom: 1px solid #ddd;
+		flex-wrap: wrap-reverse;
+
+		a {
+			color: #026fc9;
+			transition: 130ms ease-in-out;
+			font-size: 26px;
+			font-weight: 600;
+			line-height: 1.52947;
+			letter-spacing: -0.016em;
+			text-decoration: none;
+			margin-top: 45px;
+			min-width: 150px;
+			text-align: center;
+
+			svg > path {
+				fill: #026fc9;
+				transition: 130ms ease-in-out;
+			}
+
+			i {
+				vertical-align: middle;
+			}
+
+			&:hover {
+				color: #358cd4;
+
+				svg > path {
+					fill: #358cd4;
+				}
+			}
+		}
 	}
 }
 /* ==========================================================================
