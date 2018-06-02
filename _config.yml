@@ -11,10 +11,10 @@ app:
         link:    https://github.com/CrypTools/macOS-Software/releases/download/
         file:    CrypTools.zip
     windows:
-        version: v0.1
+        version: 0.1
         link:    https://github.com/el-famos0/software/releases/download/
         file:    build-release-windows-x32.zip
     linux:
-        version: v0.1
+        version: 0.1
         link:    https://github.com/el-famos0/software/releases/download/
         file:    build-release-linuxelf-x64.zip
