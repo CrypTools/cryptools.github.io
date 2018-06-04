@@ -12,11 +12,11 @@ app:
         file:    CrypTools.zip
     windows:
         version: 0.1
-        link:    https://github.com/el-famos0/software/releases/download/
+        link:    https://github.com/el-CrypTools/software/releases/download/
         file:    build-release-windows-x32.zip
     linux:
         version: 0.1
-        link:    https://github.com/el-famos0/software/releases/download/
+        link:    https://github.com/CrypTools/software/releases/download/
         file:    build-release-linuxelf-x64.zip
     ios:
         link:    https://itunes.apple.com/us/app/cryptools/id1392983460?l=fr&ls=1&mt=8
