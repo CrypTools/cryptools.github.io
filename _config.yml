@@ -12,8 +12,8 @@ app:
         file:    CrypTools.zip
     windows:
         version: 0.1
-        link:    https://github.com/el-CrypTools/software/releases/download/
-        file:    build-release-windows-x32.zip
+        link:    https://github.com/CrypTools/Windows-App/releases/download/
+        file:    cryptoolswinapi.exe
     linux:
         version: 0.1
         link:    https://github.com/CrypTools/software/releases/download/
