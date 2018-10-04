@@ -25,6 +25,10 @@ Made with ❤️ at CrypTools.
 
 See also the list of [contributors](https://github.com/CrypTools/cryptools.github.io/contributors) who participated in this project.
 
+## Contributing
+
+See [CONTRIBUTING.MD](https://github.com/CrypTools/cryptools.github.io/blob/master/CONTRIBUTING.md) for more details about how to contribute)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
