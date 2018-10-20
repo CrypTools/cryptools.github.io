@@ -1,23 +1,6 @@
-<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>VigenereCipher</title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-5653 -312)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M 5653 312L 6653 312L 6653 1312L 5653 1312L 5653 312Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="VigenereCipher" clip-path="url(#clip-0)">
-<path d="M 5653 312L 6653 312L 6653 1312L 5653 1312L 5653 312Z" fill="#FFFFFF"/>
-<g id="Plus">
-<g id="Rectangle">
-<use xlink:href="#path0_fill" transform="translate(6100.75 537)"/>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vernam">
+<rect width="16" height="16" transform="scale(4)" fill="white"/>
+<path id="Ellipse (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M29.5 34.5V52H34.5V34.5H52V29.5H34.5V12H29.5V29.5H12V34.5H29.5Z" fill="black"/>
 </g>
-<g id="Rectangle">
-<use xlink:href="#path0_fill" transform="matrix(4.45326e-17 -1 1 8.41945e-17 5878 862.875)"/>
-</g>
-</g>
-</g>
-</g>
-<defs>
-<path id="path0_fill" d="M 0 51.5625C 0 23.0853 23.0853 0 51.5625 0L 51.5625 0C 80.0397 0 103.125 23.0853 103.125 51.5625L 103.125 498.438C 103.125 526.915 80.0397 550 51.5625 550L 51.5625 550C 23.0853 550 0 526.915 0 498.438L 0 51.5625Z"/>
-</defs>
 </svg>
