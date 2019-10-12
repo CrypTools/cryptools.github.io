@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vigenere">
+<rect width="16" height="16" transform="scale(4)" fill="white"/>
+<path id="Ellipse (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M21.5 52V30.5H26.5V52H21.5ZM26.5 25.5V30.5H52V25.5H26.5ZM21.5 25.5V12H26.5V25.5H21.5ZM21.5 25.5H12V30.5H21.5V25.5Z" fill="black"/>
+</g>
+</svg>
