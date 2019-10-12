@@ -41,3 +41,9 @@
   key:
     - name: Key
       type: number
+- name:     Vigenere Cipher
+  github:   VigenereCipher
+  icon:     vigenere
+  key:
+    - name: Key
+      type: text
