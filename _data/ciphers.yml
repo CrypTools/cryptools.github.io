@@ -17,6 +17,12 @@
   key:
     - name: Key
       type: text
+- name:     Caesar Cipher
+  github:   CaesarCipher
+  icon:     vernam
+  key:
+    - name: Key
+      type: number
 
 - name:     Railfence Cipher
   github:   RailfenceCipher
