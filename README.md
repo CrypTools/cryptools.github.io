@@ -8,6 +8,8 @@
     <img src="https://img.shields.io/github/contributors/Cryptools/cryptools.github.io.svg">
 </p>
 
+> ⚠️ CrypTools will be merged with the bigger project, [Cryptool](https://www.cryptool.org). Therefore, this website is not maintained anymore.
+
 Ciphers explained and implemented in several programming languages.
 
 ## Built with
