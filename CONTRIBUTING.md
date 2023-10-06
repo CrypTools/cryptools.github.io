@@ -30,7 +30,7 @@ If you know how to fix the bug, please open a pull request including your fix. P
 
 ### Found a way to improve our code?
 
-If you have found some ineficient code that you can improve, please go ahead and open a pull request including your improvements. Here are a couple of of steps to make a good pull request:
+If you have found some inefficient code that you can improve, please go ahead and open a pull request including your improvements. Here are a couple of of steps to make a good pull request:
 
 - **Use a clear title**. You should be able to guess what the issue is just by reading the title.
 - **What was wrong**? Describe what was not optimal in the original code.
